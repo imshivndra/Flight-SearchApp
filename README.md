@@ -1,2 +1,8 @@
 # Flight Search App
-It is a flight search app which finds best flights which will take minimum time to reach from departure city to arrival
+This is a flight search app that finds best flights which will take minimum time to reach from departure city to arrival city
+### Tech Stack
+* **Frontend**-ReactJs,HTML,CSS
+* **Backend**-Python,Django
+* **Database**-PostgreSQL
+
+

@@ -25,7 +25,7 @@ SECRET_KEY = '7e_*b1q5=!n^y5nh&izm)280@38tf(k@t=kj38iz@m58(00s*i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['flashflight.herokuapp.com','localhost']
 
 
 # Application definition
@@ -88,7 +88,7 @@ DATABASES = {
     }
 }
 import dj_database_url
-db_from_env=dj_database_url.FlightConfig(conn_max_age=600)
+db_from_env=dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env)
 
 # Password validation

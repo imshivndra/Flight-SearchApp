@@ -24,7 +24,7 @@ This is a flight search app that finds best flights which will take minimum time
  ### Now your Frontend and Backend is is live
  You can insert and update Flight data in your database using create-flight  and update-flight API
   ## Your Search result will look like : 
-  ![Front end view](./FlightAppSS.png)
+  ![Front end view](FlightAppSS.png)
   
  
 

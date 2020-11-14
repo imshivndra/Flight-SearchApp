@@ -1,0 +1,41 @@
+@import "~antd/dist/antd.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.form-style{
+    margin:0.1rem auto;
+    padding:2rem 2rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.flight-details {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    width: 80vw;
+
+  
+   
+
+  }
+  h1{
+    margin:0.5rem auto;
+    text-align: center;
+    color: #1890ff;
+  }
+  h3{
+    margin:0.5rem auto;
+    text-align: center;
+  }
+  
+  

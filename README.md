@@ -5,4 +5,20 @@ This is a flight search app that finds best flights which will take minimum time
 * **Backend**-Python,Django
 * **Database**-PostgreSQL
 
+#Setting Up Project Locally 
+* clone the code from [Flight-SearchApp](https://github.com/imshivndra/Flight-SearchApp)
+**Frontend**
+* Go to client directory and run **npm install**
+* Run **npm start**
+* Now you can see your frontend live at localhost:3000 
+**Backend**
+* Go to server directory and run pip3 install to install dependencies
+* configure **Database** ,we are using postgresql .make sure your system has postgresql installed 
+ **Connecting database to our Django project**
+ *create a database in postgre using PgAdmin
+ *Go to settings.py folder and make sure credentials of database are correct
+ * **Migration**
+ Run **python3 manage.py run migration** to create schema in your DB.
+
+
 

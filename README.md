@@ -18,13 +18,14 @@ This is a flight search app that finds best flights which will take minimum time
  * create a database in postgre using PgAdmin
  * Go to settings.py folder and make sure credentials of database are correct
  * **Migration**
- * Run **python3 manage.py run migration** to create schema in your DB
+ * Run **python3 manage.py makemigrations** & **python3 manage.py migrate**  to create schema in your DB
  * Make your backend server live on localhost Run **python3 manage.py runserver**
  
- ### Now your Frontend and Backend is is live
+ ### Now your Frontend and Backend is  live
  You can insert and update Flight data in your database using create-flight  and update-flight API
   ## Your Search result will look like : 
   ![Front end view](https://github.com/imshivndra/Flight-SearchApp/blob/master/FligtAppSS.png?raw=true)
+  ### visit project [FlashFlights](https://flashflights.netlify.app/)
   
  
 
